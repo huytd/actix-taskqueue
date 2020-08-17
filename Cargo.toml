@@ -3,6 +3,7 @@ name = "actix-taskqueue"
 version = "0.1.0"
 authors = ["Huy Tran <hey@huy.rocks>"]
 description = "A generic task queue service for Actix"
+repository = "https://github.com/huytd/actix-taskqueue"
 license-file = "LICENSE"
 edition = "2018"
 exclude = [
