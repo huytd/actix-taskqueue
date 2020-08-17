@@ -5,8 +5,6 @@
 //!
 //! A task queue for a pair of Task and Task Result will be a [SystemService](https://docs.rs/actix/latest/actix/registry/trait.SystemService.html).
 //!
-//! ![](resources/overview.png)
-//!
 //! To use the queue, you first need to define a data structure for your Task and Task Result:
 //!
 //! For example:
