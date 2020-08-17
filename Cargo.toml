@@ -2,6 +2,8 @@
 name = "actix-taskqueue"
 version = "0.1.0"
 authors = ["Huy Tran <hey@huy.rocks>"]
+description = "A generic task queue service for Actix"
+license = "BSD 3-Clause Clear"
 edition = "2018"
 exclude = [
   "resources/*",
