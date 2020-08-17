@@ -1,0 +1,12 @@
+[package]
+name = "actix-taskqueue"
+version = "0.1.0"
+authors = ["Huy Tran <hey@huy.rocks>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.9.0"
+crossbeam = "0.7.3"
+async-trait = "0.1.37"
