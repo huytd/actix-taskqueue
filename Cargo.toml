@@ -3,7 +3,7 @@ name = "actix-taskqueue"
 version = "0.1.0"
 authors = ["Huy Tran <hey@huy.rocks>"]
 description = "A generic task queue service for Actix"
-license = "BSD 3-Clause Clear"
+license-file = "LICENSE"
 edition = "2018"
 exclude = [
   "resources/*",
@@ -15,3 +15,6 @@ exclude = [
 actix = "0.9.0"
 crossbeam = "0.7.3"
 async-trait = "0.1.37"
+
+[dev-dependencies]
+actix-rt = "1.1.1"
